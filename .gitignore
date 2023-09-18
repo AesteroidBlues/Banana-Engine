@@ -1,0 +1,14 @@
+.DS_Store
+
+build/
+
+res/bin/DesktopGL/*
+!res/bin/DesktopGl/Content
+res/bin/DesktopGl/Content/*
+## Need to add spritefonts to the repo until they can be built on mac
+!res/bin/DesktopGl/Content/font
+
+res/obj
+
+.mgstats
+imgui.ini
