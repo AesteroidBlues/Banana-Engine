@@ -25,6 +25,11 @@ public class DependencyManager
         return m_Container.Get(t);
     }
 
+    public T Get<T>()
+    {
+        return m_Container.Get<T>();
+    }
+
     public void AddDepedencyInstance<T>(object instance)
     {
         if (instance == null)

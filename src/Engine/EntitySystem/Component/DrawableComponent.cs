@@ -54,6 +54,11 @@ public class DrawableComponent : Component, IRenderable
         }
 
         Rectangle rectangle = new Rectangle(0, 0, m_Texture.Value.Width, m_Texture.Value.Height);
+        if (m_Entity.GetComponent<SimpleAnimationComponent>() is SimpleAnimationComponent animation)
+        {
+            rectangle = animation.GetDrawRect();
+        }
+
         if (m_Entity.GetComponent<AnimatorComponent>() is AnimatorComponent animator)
         {
             rectangle = animator.GetDrawRect();

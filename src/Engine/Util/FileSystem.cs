@@ -18,7 +18,7 @@ public class Filesystem
 
     public String TextureDirectory
     {
-        get { return Path.Combine(m_ContentRootDirectory, "textures"); }
+        get { return Path.Combine(m_ContentRootDirectory, "texture"); }
     }
 
     [Inject]

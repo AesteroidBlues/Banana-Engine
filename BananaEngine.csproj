@@ -10,9 +10,6 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
     <ApplicationIcon>Icon.ico</ApplicationIcon>
   </PropertyGroup>
-  <!-- <PropertyGroup>
-    <OutputPath>./build/bin/$(Configuration)</OutputPath>
-  </PropertyGroup> -->
   <PropertyGroup>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
